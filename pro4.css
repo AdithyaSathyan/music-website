@@ -1,0 +1,339 @@
+.primary-nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(9, 9, 66);
+    position: fixed;
+    /* position: fixed; */
+}
+.search-bar{
+    width: 700px;
+}
+.second-nav{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(29, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1000;
+    position: relative;
+    top:-60px;
+}
+/* .carousel-inner img{
+    width: 90%;
+    height: 600px;
+    padding-left: 5px;
+    padding-top: 10px;
+    /* padding-right: 150px; */
+/* }
+#carouselExampleAutoplaying{
+    margin-left: 150px;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    bottom: 100px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+} */ 
+
+ .form-control{
+   width: 390px;
+   height: 20px;
+   position: relative;
+   left:435px;
+   top:-2px;
+ }
+.p1{
+    display: flex;
+}
+.sub{
+    position: relative;
+    top:31px;
+    left:-150px;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+.login{
+    position: relative;
+    left:-65px;
+    color: rgb(255, 255, 255);
+    top:3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+.logincon{
+    position: relative;
+    left:-70px;
+    color:rgb(255, 255, 255);
+    top:55px;
+}
+.icon img{
+    position: relative;
+   left:10px;
+   top:-100px;
+}
+    
+.all{
+    height:600px;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+
+}
+
+
+/* try */
+.all {
+    position: relative;
+    width: 100%;
+  }
+  
+  .img1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .all:hover .img1 {
+    opacity: 0.3;
+  }
+  
+  .all:hover .middle {
+    opacity: 1;
+  }
+  
+  .text1 {
+    background-color: #940f00dc;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+  
+
+
+
+
+ /* .carousel-inner img{
+    width: 100%;
+    height: 500px;
+    /* padding-left: 5px; */
+    /* padding-top: 10px; */
+    /* padding-right: 150px; */
+/* }
+#carouselExampleAutoplaying{
+    margin-left: 5px;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    bottom: 100px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+}  */ 
+.newrelease{
+    background-color: black;
+    position: relative;
+    top:-100px;
+}
+.neww{
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    background-color: black;
+
+  }
+  .heading{
+    color: white;
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  .newrelease h2{
+    color:white;
+    position: relative;
+    left:70px;
+    top: -25px;
+  }
+  .newrelease h3{
+    color: white;
+    position: relative;
+    left:380px;
+    top:-60px;
+    font-size:10px ;
+  }
+  .oldsongs{
+    position: relative;
+    background-color: black;
+  }
+  .neww1{
+    position: relative;
+    top:-40px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: black;
+
+  }
+  .heading2{
+    color: white;
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top:-10px;
+    font-size: 30px;
+  }
+  .newsongs{
+    position: relative;
+    top:-20px; 
+    background-color: black;
+  }
+  .heading3{
+    position: relative;
+    color: white;
+    position: relative;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    top:-10px;
+    font-size: 10px;
+  }
+.neww2{
+        position: relative;
+        display: flex;
+        justify-content: space-between; 
+        background-color: black;
+    
+}
+.menu-bar {
+    background-color:black;
+    height: 80px;
+    width:99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Reem kufi',sans-serif;
+    position: absolute;
+    top: 0px;
+  }
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+    padding-left: 40px;
+    margin: 220px;
+    margin-left: 20px;
+  }
+  .menu-bar ul li {
+    padding: 10px 25px;
+    position: relative;
+  }
+  .menu-bar ul li a {
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .menu-bar ul li a:hover {
+    color:skyblue;
+  }
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  .menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:black;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: 0px;
+  }
+  .menu-bar ul li:hover .dropdown-menu ul li {
+    width: 250px;
+    padding: 10px;
+  }
+  .dropdown-menu-1 {
+    display: none;
+  }
+  .dropdown-menu ul li:hover .dropdown-menu-1 {
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color:black;
+  }
+  .contact{
+    height: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+}
+
+.cnt{
+    height: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: column ;
+    position: relative;
+    top: 50px;
+}
+.cnt a{
+    text-decoration: none;
+    color: white;
+}
+.cnt h4{
+    color: white;
+    font-weight: 600;
+    
+}
+
+.cnt a:hover{
+    color: blue;
+}
+.contact-end{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 8, 0);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.contact-end a{
+    padding: 10px;
+    color: white;
+}
+.contact-end a:hover{
+    color: rgb(27, 77, 203);
+}
